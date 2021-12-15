@@ -92,7 +92,6 @@ app.get("/", async (req,res) => {
     const respStephanMiscellaneous = await getValues('Stephan!A2253:I2399');
     stephanHelper.addDataStephan(respStephanMiscellaneous.data.values, stephanComplete, 'miscellaneous')
 
-    //visualising data
     res.send("Hello There");
 
     connectToMongoDB();
