@@ -95,7 +95,7 @@ app.get("/", async (req,res) => {
     //visualising data
     res.send("Hello There");
 
-    // connectToMongoDB();
+    connectToMongoDB();
     
 })
 
